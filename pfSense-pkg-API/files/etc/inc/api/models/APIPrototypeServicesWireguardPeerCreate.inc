@@ -60,12 +60,12 @@ class APIPrototypeServicesWireguardPeerCreate extends APIModel {
 
     # Converts the config addresses values to expected UI values
     private function __convert_addresses() {
-        foreach ($this->initial_data["allowed_ips"]["row"] as $id=>$address) {
+        foreach ($this->initial_data["allowedips"]["row"] as $id=>$address) {
             $this->initial_data["address".$id] = $address["address"];
             $this->initial_data["address_subnet".$id] = $address["mask"];
             $this->initial_data["address_descr".$id] = $address["descr"];
         }
-        unset($this->initial_data["allowed_ips"]);
+        unset($this->initial_data["allowedips"]);
     }
 
     # Initializes the wireguard configuration
