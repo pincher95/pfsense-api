@@ -77,13 +77,20 @@ class APIFirewallRuleUpdate extends APIModel {
     }
 
     private function __validate_interface() {
-        # Check for our optional 'interface' payload value
+        # Variables
+        $vpn_ifs = ["WireGuard"];
+
+        # Check for our required 'interface' payload value
         if (isset($this->initial_data['interface'])) {
-            $this->initial_data['interface'] = APITools\get_pfsense_if_id($this->initial_data['interface']);
             # Check that we found the request pfSense interface ID
-            if (is_string($this->initial_data["interface"])) {
+            if (is_string(APITools\get_pfsense_if_id($this->initial_data['interface']))) {
+                $this->validated_data['interface'] = APITools\get_pfsense_if_id($this->initial_data['interface']);
+            }
+            # Allow the WireGuard virtual interface
+            elseif (in_array($this->initial_data['interface'], $vpn_ifs, true)) {
                 $this->validated_data['interface'] = $this->initial_data['interface'];
-            } else {
+            }
+            else {
                 $this->errors[] = APIResponse\get(4034);
             }
         }
