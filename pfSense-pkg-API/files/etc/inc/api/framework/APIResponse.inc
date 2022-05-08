@@ -1187,6 +1187,294 @@ function get($id, $data=[], $all=false) {
             "return" => $id,
             "message" => "DHCPd option with type ip-address must be valid IPv4 address or hostname"
         ],
+        2098 => [
+            "status" => "bad request",
+            "code" => 400,
+            "return" => $id,
+            "message" => "Unknown OpenVPN Server Mode"
+        ],
+        2099 => [
+            "status" => "bad request",
+            "code" => 400,
+            "return" => $id,
+            "message" => "Unknown OpenVPN Server Protocol"
+        ],
+        2100 => [
+            "status" => "bad request",
+            "code" => 400,
+            "return" => $id,
+            "message" => "Unknown OpenVPN Server Device mode"
+        ],
+        2101 => [
+            "status" => "bad request",
+            "code" => 400,
+            "return" => $id,
+            "message" => "Unknown OpenVPN Server Interface"
+        ],
+        2102 => [
+            "status" => "bad request",
+            "code" => 400,
+            "return" => $id,
+            "message" => "Invalid or taken OpenVPN Server Local port (allowed range 1-65535)"
+        ],
+        2103 => [
+            "status" => "bad request",
+            "code" => 400,
+            "return" => $id,
+            "message" => "Unknown OpenVPN Server TLS Key Usage Mode"
+        ],
+        2104 => [
+            "status" => "bad request",
+            "code" => 400,
+            "return" => $id,
+            "message" => "Unknown OpenVPN Server TLS keydir direction"
+        ],
+        2105 => [
+            "status" => "bad request",
+            "code" => 400,
+            "return" => $id,
+            "message" => "Unknown OpenVPN Server TLS DH Parameter Length"
+        ],
+        2106 => [
+            "status" => "bad request",
+            "code" => 400,
+            "return" => $id,
+            "message" => "Unknown OpenVPN Server ECDH Curve"
+        ],
+        2107 => [
+            "status" => "bad request",
+            "code" => 400,
+            "return" => $id,
+            "message" => "Unknown OpenVPN Server Certificate Depth"
+        ],
+        2108 => [
+            "status" => "bad request",
+            "code" => 400,
+            "return" => $id,
+            "message" => "Unknown OpenVPN Server Fallback Data Encryption Algorithm"
+        ],
+        2109 => [
+            "status" => "bad request",
+            "code" => 400,
+            "return" => $id,
+            "message" => "Unknown OpenVPN Server Auth Digest Algorithm"
+        ],
+        2110 => [
+            "status" => "bad request",
+            "code" => 400,
+            "return" => $id,
+            "message" => "Unknown OpenVPN Server Hardware Crypto Engine"
+        ],
+        2111 => [
+            "status" => "bad request",
+            "code" => 400,
+            "return" => $id,
+            "message" => "Unknown or already in use OpenVPN Server Tunnel Network"
+        ],
+        2112 => [
+            "status" => "bad request",
+            "code" => 400,
+            "return" => $id,
+            "message" => "Unknown OpenVPN Server Remote network(s)"
+        ],
+        2113 => [
+            "status" => "bad request",
+            "code" => 400,
+            "return" => $id,
+            "message" => "Unknown OpenVPN Server Local network(s)"
+        ],
+        2114 => [
+            "status" => "bad request",
+            "code" => 400,
+            "return" => $id,
+            "message" => "Unknown OpenVPN Server Allow Compression"
+        ],
+        2115 => [
+            "status" => "bad request",
+            "code" => 400,
+            "return" => $id,
+            "message" => "Unknown OpenVPN Server Compression"
+        ],
+        2116 => [
+            "status" => "bad request",
+            "code" => 400,
+            "return" => $id,
+            "message" => "Unknown OpenVPN Server Topology"
+        ],
+        2117 => [
+            "status" => "bad request",
+            "code" => 400,
+            "return" => $id,
+            "message" => "Unknown OpenVPN Server Ping Method"
+        ],
+        2118 => [
+            "status" => "bad request",
+            "code" => 400,
+            "return" => $id,
+            "message" => "Unknown OpenVPN Server Keepalive Interval"
+        ],
+        2119 => [
+            "status" => "bad request",
+            "code" => 400,
+            "return" => $id,
+            "message" => "Unknown OpenVPN Server Keepalive Timeout"
+        ],
+        2120 => [
+            "status" => "bad request",
+            "code" => 400,
+            "return" => $id,
+            "message" => "Unknown OpenVPN Server Ping Seconds"
+        ],
+        2121 => [
+            "status" => "bad request",
+            "code" => 400,
+            "return" => $id,
+            "message" => "Unknown OpenVPN Server Ping restart or exit seconds"
+        ],
+        2122 => [
+            "status" => "bad request",
+            "code" => 400,
+            "return" => $id,
+            "message" => "Unknown OpenVPN Server Ping restart or exit"
+        ],
+        2123 => [
+            "status" => "bad request",
+            "code" => 400,
+            "return" => $id,
+            "message" => "Unknown OpenVPN Server Exit Notify"
+        ],
+        2124 => [
+            "status" => "bad request",
+            "code" => 400,
+            "return" => $id,
+            "message" => "Unknown OpenVPN Server Send/Receive Buffer"
+        ],
+        2125 => [
+            "status" => "bad request",
+            "code" => 400,
+            "return" => $id,
+            "message" => "Unknown OpenVPN Server Gateway Creation"
+        ],
+        2126 => [
+            "status" => "bad request",
+            "code" => 400,
+            "return" => $id,
+            "message" => "Unknown OpenVPN Server Verbosity Level"
+        ],
+        2127 => [
+            "status" => "bad request",
+            "code" => 400,
+            "return" => $id,
+            "message" => "Unknown OpenVPN Server Concurrent Connections"
+        ],
+        2128 => [
+            "status" => "bad request",
+            "code" => 400,
+            "return" => $id,
+            "message" => "Unknown OpenVPN Server Inactive Time"
+        ],
+        2129 => [
+            "status" => "bad request",
+            "code" => 400,
+            "return" => $id,
+            "message" => "Missing OpenVPN Server Certificate"
+        ],
+        2130 => [
+            "status" => "bad request",
+            "code" => 400,
+            "return" => $id,
+            "message" => "Missing OpenVPN Server Certificate Authority"
+        ],
+        2131 => [
+            "status" => "bad request",
+            "code" => 400,
+            "return" => $id,
+            "message" => "Unknown OpenVPN Server Peer Certificate Revocation List"
+        ],
+        2132 => [
+            "status" => "bad request",
+            "code" => 400,
+            "return" => $id,
+            "message" => "Unknown OpenVPN Server Data Encryption Algorithms"
+        ],
+        2133 => [
+            "status" => "Not found",
+            "code" => 404,
+            "return" => $id,
+            "message" => "Unknown OpenVPN Server 'vpnid'"
+        ],
+        2134 => [
+            "status" => "bad request",
+            "code" => 400,
+            "return" => $id,
+            "message" => "Missing OpenVPN Server 'vpnid'. This parameter is needed to identify the server to modify/delete."
+        ],
+        2135 => [
+            "status" => "bad request",
+            "code" => 400,
+            "return" => $id,
+            "message" => "Missing OpenVPN Server 'shared_key'. This parameter is needed for server mode 'p2p_shared_key'"
+        ],
+        2136 => [
+            "status" => "bad request",
+            "code" => 400,
+            "return" => $id,
+            "message" => "Unknown OpenVPN Server Certificate Authority"
+        ],
+        2137 => [
+            "status" => "bad request",
+            "code" => 400,
+            "return" => $id,
+            "message" => "Unknown OpenVPN Server Certificate"
+        ],
+        2138 => [
+            "status" => "bad request",
+            "code" => 400,
+            "return" => $id,
+            "message" => "OpenVPN Server No Certificate Authority found"
+        ],
+        2139 => [
+            "status" => "bad request",
+            "code" => 400,
+            "return" => $id,
+            "message" => "OpenVPN Server No Server Certificate found"
+        ],
+        2140 => [
+            "status" => "bad request",
+            "code" => 400,
+            "return" => $id,
+            "message" => "Unknown OpenVPN Server Bridge Interface"
+        ],
+        2141 => [
+            "status" => "bad request",
+            "code" => 400,
+            "return" => $id,
+            "message" => "Unknown OpenVPN Server Bridge Route Gateway requires a valid Bridge Interface"
+        ],
+        2142 => [
+            "status" => "bad request",
+            "code" => 400,
+            "return" => $id,
+            "message" => "Unknown OpenVPN Server Bridge DHCP Start and End must both be empty, or defined, or The Server Bridge DHCP range is invalid (start higher than end)."
+        ],
+        2143 => [
+            "status" => "bad request",
+            "code" => 400,
+            "return" => $id,
+            "message" => "OpenVPN Server The field 'NTP Server' must contain a valid IP address."
+        ],
+        2144 => [
+            "status" => "bad request",
+            "code" => 400,
+            "return" => $id,
+            "message" => "OpenVPN Server The field 'DNS Server' must contain a valid IP address."
+        ],
+        2145 => [
+            "status" => "bad request",
+            "code" => 400,
+            "return" => $id,
+            "message" => "OpenVPN Server cannot delete an OpenVPN instance while the interface is assigned. Remove the interface assignment first."
+        ],
         2999 => [
             "status" => "bad request",
             "code" => 400,
