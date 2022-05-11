@@ -1191,43 +1191,43 @@ function get($id, $data=[], $all=false) {
             "status" => "bad request",
             "code" => 400,
             "return" => $id,
-            "message" => "Unknown OpenVPN Server Mode"
+            "message" => "Unknown OpenVPN Server/Client Mode"
         ],
         2099 => [
             "status" => "bad request",
             "code" => 400,
             "return" => $id,
-            "message" => "Unknown OpenVPN Server Protocol"
+            "message" => "Unknown OpenVPN Server/Client Protocol"
         ],
         2100 => [
             "status" => "bad request",
             "code" => 400,
             "return" => $id,
-            "message" => "Unknown OpenVPN Server Device mode"
+            "message" => "Unknown OpenVPN Server/Client Device mode"
         ],
         2101 => [
             "status" => "bad request",
             "code" => 400,
             "return" => $id,
-            "message" => "Unknown OpenVPN Server Interface"
+            "message" => "Unknown OpenVPN Server/Client Interface"
         ],
         2102 => [
             "status" => "bad request",
             "code" => 400,
             "return" => $id,
-            "message" => "Invalid or taken OpenVPN Server Local port (allowed range 1-65535)"
+            "message" => "Invalid or taken OpenVPN Server/Client Local port (allowed range 1-65535)"
         ],
         2103 => [
             "status" => "bad request",
             "code" => 400,
             "return" => $id,
-            "message" => "Unknown OpenVPN Server TLS Key Usage Mode"
+            "message" => "Unknown OpenVPN Server/Client TLS Key Usage Mode"
         ],
         2104 => [
             "status" => "bad request",
             "code" => 400,
             "return" => $id,
-            "message" => "Unknown OpenVPN Server TLS keydir direction"
+            "message" => "Unknown OpenVPN Server/Client TLS keydir direction"
         ],
         2105 => [
             "status" => "bad request",
@@ -1401,19 +1401,19 @@ function get($id, $data=[], $all=false) {
             "status" => "Not found",
             "code" => 404,
             "return" => $id,
-            "message" => "Unknown OpenVPN Server 'vpnid'"
+            "message" => "Unknown OpenVPN Server/Client 'vpnid'"
         ],
         2134 => [
             "status" => "bad request",
             "code" => 400,
             "return" => $id,
-            "message" => "Missing OpenVPN Server 'vpnid'. This parameter is needed to identify the server to modify/delete."
+            "message" => "Missing OpenVPN Server/Client 'vpnid'. This parameter is needed to identify the server to modify/delete."
         ],
         2135 => [
             "status" => "bad request",
             "code" => 400,
             "return" => $id,
-            "message" => "Missing OpenVPN Server 'shared_key'. This parameter is needed for server mode 'p2p_shared_key'"
+            "message" => "Missing OpenVPN Server/Client 'shared_key'. This parameter is needed for server mode 'p2p_shared_key'"
         ],
         2136 => [
             "status" => "bad request",
@@ -1473,7 +1473,7 @@ function get($id, $data=[], $all=false) {
             "status" => "bad request",
             "code" => 400,
             "return" => $id,
-            "message" => "OpenVPN Server cannot delete an OpenVPN instance while the interface is assigned. Remove the interface assignment first."
+            "message" => "OpenVPN Server/Client cannot delete an OpenVPN instance while the interface is assigned. Remove the interface assignment first."
         ],
         2999 => [
             "status" => "bad request",
