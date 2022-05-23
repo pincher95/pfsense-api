@@ -1209,7 +1209,7 @@ function get($id, $data=[], $all=false) {
             "status" => "bad request",
             "code" => 400,
             "return" => $id,
-            "message" => "Unknown OpenVPN Server/Client Interface"
+            "message" => "Unknown or disabled OpenVPN Server/Client Interface"
         ],
         2102 => [
             "status" => "bad request",
